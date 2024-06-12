@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFEC23BE2C0CFAFD00AB24A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23BD2C0CFAFD00AB24A4 /* AppDelegate.swift */; };
+		EFEC23C02C0CFAFD00AB24A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23BF2C0CFAFD00AB24A4 /* SceneDelegate.swift */; };
+		EFEC23C22C0CFAFD00AB24A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23C12C0CFAFD00AB24A4 /* ViewController.swift */; };
+		EFEC23C52C0CFAFD00AB24A4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFEC23C42C0CFAFD00AB24A4 /* Base */; };
+		EFEC23C72C0CFB0000AB24A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEC23C62C0CFB0000AB24A4 /* Assets.xcassets */; };
+		EFEC23CA2C0CFB0000AB24A4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFEC23C92C0CFB0000AB24A4 /* Base */; };
+		EFEC23D52C0CFB0000AB24A4 /* Singeton_studentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23D42C0CFB0000AB24A4 /* Singeton_studentTests.swift */; };
+		EFEC23DF2C0CFB0000AB24A4 /* Singeton_studentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23DE2C0CFB0000AB24A4 /* Singeton_studentUITests.swift */; };
+		EFEC23E12C0CFB0000AB24A4 /* Singeton_studentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23E02C0CFB0000AB24A4 /* Singeton_studentUITestsLaunchTests.swift */; };
+		EFEC23EE2C0CFB5900AB24A4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC23ED2C0CFB5900AB24A4 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEC23D12C0CFB0000AB24A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEC23B22C0CFAFD00AB24A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEC23B92C0CFAFD00AB24A4;
+			remoteInfo = Singeton_student;
+		};
+		EFEC23DB2C0CFB0000AB24A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEC23B22C0CFAFD00AB24A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEC23B92C0CFAFD00AB24A4;
+			remoteInfo = Singeton_student;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFEC23BA2C0CFAFD00AB24A4 /* Singeton_student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Singeton_student.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC23BD2C0CFAFD00AB24A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFEC23BF2C0CFAFD00AB24A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFEC23C12C0CFAFD00AB24A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFEC23C42C0CFAFD00AB24A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFEC23C62C0CFB0000AB24A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFEC23C92C0CFB0000AB24A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFEC23CB2C0CFB0000AB24A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEC23D02C0CFB0000AB24A4 /* Singeton_studentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Singeton_studentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC23D42C0CFB0000AB24A4 /* Singeton_studentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singeton_studentTests.swift; sourceTree = "<group>"; };
+		EFEC23DA2C0CFB0000AB24A4 /* Singeton_studentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Singeton_studentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEC23DE2C0CFB0000AB24A4 /* Singeton_studentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singeton_studentUITests.swift; sourceTree = "<group>"; };
+		EFEC23E02C0CFB0000AB24A4 /* Singeton_studentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singeton_studentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFEC23ED2C0CFB5900AB24A4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEC23B72C0CFAFD00AB24A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC23CD2C0CFB0000AB24A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC23D72C0CFB0000AB24A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFEC23B12C0CFAFD00AB24A4 = {
+			isa = PBXGroup;
+			children = (
+				EFEC23BC2C0CFAFD00AB24A4 /* Singeton_student */,
+				EFEC23D32C0CFB0000AB24A4 /* Singeton_studentTests */,
+				EFEC23DD2C0CFB0000AB24A4 /* Singeton_studentUITests */,
+				EFEC23BB2C0CFAFD00AB24A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEC23BB2C0CFAFD00AB24A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC23BA2C0CFAFD00AB24A4 /* Singeton_student.app */,
+				EFEC23D02C0CFB0000AB24A4 /* Singeton_studentTests.xctest */,
+				EFEC23DA2C0CFB0000AB24A4 /* Singeton_studentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEC23BC2C0CFAFD00AB24A4 /* Singeton_student */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC23BD2C0CFAFD00AB24A4 /* AppDelegate.swift */,
+				EFEC23BF2C0CFAFD00AB24A4 /* SceneDelegate.swift */,
+				EFEC23C12C0CFAFD00AB24A4 /* ViewController.swift */,
+				EFEC23ED2C0CFB5900AB24A4 /* DataManager.swift */,
+				EFEC23C32C0CFAFD00AB24A4 /* Main.storyboard */,
+				EFEC23C62C0CFB0000AB24A4 /* Assets.xcassets */,
+				EFEC23C82C0CFB0000AB24A4 /* LaunchScreen.storyboard */,
+				EFEC23CB2C0CFB0000AB24A4 /* Info.plist */,
+			);
+			path = Singeton_student;
+			sourceTree = "<group>";
+		};
+		EFEC23D32C0CFB0000AB24A4 /* Singeton_studentTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC23D42C0CFB0000AB24A4 /* Singeton_studentTests.swift */,
+			);
+			path = Singeton_studentTests;
+			sourceTree = "<group>";
+		};
+		EFEC23DD2C0CFB0000AB24A4 /* Singeton_studentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC23DE2C0CFB0000AB24A4 /* Singeton_studentUITests.swift */,
+				EFEC23E02C0CFB0000AB24A4 /* Singeton_studentUITestsLaunchTests.swift */,
+			);
+			path = Singeton_studentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEC23B92C0CFAFD00AB24A4 /* Singeton_student */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEC23E42C0CFB0000AB24A4 /* Build configuration list for PBXNativeTarget "Singeton_student" */;
+			buildPhases = (
+				EFEC23B62C0CFAFD00AB24A4 /* Sources */,
+				EFEC23B72C0CFAFD00AB24A4 /* Frameworks */,
+				EFEC23B82C0CFAFD00AB24A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Singeton_student;
+			productName = Singeton_student;
+			productReference = EFEC23BA2C0CFAFD00AB24A4 /* Singeton_student.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFEC23CF2C0CFB0000AB24A4 /* Singeton_studentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEC23E72C0CFB0000AB24A4 /* Build configuration list for PBXNativeTarget "Singeton_studentTests" */;
+			buildPhases = (
+				EFEC23CC2C0CFB0000AB24A4 /* Sources */,
+				EFEC23CD2C0CFB0000AB24A4 /* Frameworks */,
+				EFEC23CE2C0CFB0000AB24A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEC23D22C0CFB0000AB24A4 /* PBXTargetDependency */,
+			);
+			name = Singeton_studentTests;
+			productName = Singeton_studentTests;
+			productReference = EFEC23D02C0CFB0000AB24A4 /* Singeton_studentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFEC23D92C0CFB0000AB24A4 /* Singeton_studentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEC23EA2C0CFB0000AB24A4 /* Build configuration list for PBXNativeTarget "Singeton_studentUITests" */;
+			buildPhases = (
+				EFEC23D62C0CFB0000AB24A4 /* Sources */,
+				EFEC23D72C0CFB0000AB24A4 /* Frameworks */,
+				EFEC23D82C0CFB0000AB24A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEC23DC2C0CFB0000AB24A4 /* PBXTargetDependency */,
+			);
+			name = Singeton_studentUITests;
+			productName = Singeton_studentUITests;
+			productReference = EFEC23DA2C0CFB0000AB24A4 /* Singeton_studentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEC23B22C0CFAFD00AB24A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EFEC23B92C0CFAFD00AB24A4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EFEC23CF2C0CFB0000AB24A4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFEC23B92C0CFAFD00AB24A4;
+					};
+					EFEC23D92C0CFB0000AB24A4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFEC23B92C0CFAFD00AB24A4;
+					};
+				};
+			};
+			buildConfigurationList = EFEC23B52C0CFAFD00AB24A4 /* Build configuration list for PBXProject "Singeton_student" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFEC23B12C0CFAFD00AB24A4;
+			productRefGroup = EFEC23BB2C0CFAFD00AB24A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEC23B92C0CFAFD00AB24A4 /* Singeton_student */,
+				EFEC23CF2C0CFB0000AB24A4 /* Singeton_studentTests */,
+				EFEC23D92C0CFB0000AB24A4 /* Singeton_studentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEC23B82C0CFAFD00AB24A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC23C72C0CFB0000AB24A4 /* Assets.xcassets in Resources */,
+				EFEC23CA2C0CFB0000AB24A4 /* Base in Resources */,
+				EFEC23C52C0CFAFD00AB24A4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC23CE2C0CFB0000AB24A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC23D82C0CFB0000AB24A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEC23B62C0CFAFD00AB24A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC23C22C0CFAFD00AB24A4 /* ViewController.swift in Sources */,
+				EFEC23EE2C0CFB5900AB24A4 /* DataManager.swift in Sources */,
+				EFEC23BE2C0CFAFD00AB24A4 /* AppDelegate.swift in Sources */,
+				EFEC23C02C0CFAFD00AB24A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC23CC2C0CFB0000AB24A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC23D52C0CFB0000AB24A4 /* Singeton_studentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEC23D62C0CFB0000AB24A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC23DF2C0CFB0000AB24A4 /* Singeton_studentUITests.swift in Sources */,
+				EFEC23E12C0CFB0000AB24A4 /* Singeton_studentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFEC23D22C0CFB0000AB24A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEC23B92C0CFAFD00AB24A4 /* Singeton_student */;
+			targetProxy = EFEC23D12C0CFB0000AB24A4 /* PBXContainerItemProxy */;
+		};
+		EFEC23DC2C0CFB0000AB24A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEC23B92C0CFAFD00AB24A4 /* Singeton_student */;
+			targetProxy = EFEC23DB2C0CFB0000AB24A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFEC23C32C0CFAFD00AB24A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEC23C42C0CFAFD00AB24A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFEC23C82C0CFB0000AB24A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEC23C92C0CFB0000AB24A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFEC23E22C0CFB0000AB24A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFEC23E32C0CFB0000AB24A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFEC23E52C0CFB0000AB24A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Singeton_student/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Singeton-student";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFEC23E62C0CFB0000AB24A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Singeton_student/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Singeton-student";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFEC23E82C0CFB0000AB24A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Singeton-studentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Singeton_student.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Singeton_student";
+			};
+			name = Debug;
+		};
+		EFEC23E92C0CFB0000AB24A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Singeton-studentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Singeton_student.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Singeton_student";
+			};
+			name = Release;
+		};
+		EFEC23EB2C0CFB0000AB24A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Singeton-studentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Singeton_student;
+			};
+			name = Debug;
+		};
+		EFEC23EC2C0CFB0000AB24A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Singeton-studentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Singeton_student;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEC23B52C0CFAFD00AB24A4 /* Build configuration list for PBXProject "Singeton_student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC23E22C0CFB0000AB24A4 /* Debug */,
+				EFEC23E32C0CFB0000AB24A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEC23E42C0CFB0000AB24A4 /* Build configuration list for PBXNativeTarget "Singeton_student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC23E52C0CFB0000AB24A4 /* Debug */,
+				EFEC23E62C0CFB0000AB24A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEC23E72C0CFB0000AB24A4 /* Build configuration list for PBXNativeTarget "Singeton_studentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC23E82C0CFB0000AB24A4 /* Debug */,
+				EFEC23E92C0CFB0000AB24A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEC23EA2C0CFB0000AB24A4 /* Build configuration list for PBXNativeTarget "Singeton_studentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEC23EB2C0CFB0000AB24A4 /* Debug */,
+				EFEC23EC2C0CFB0000AB24A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEC23B22C0CFAFD00AB24A4 /* Project object */;
+}
