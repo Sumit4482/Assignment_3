@@ -10,3 +10,7 @@
     
 
 4.  Create an Actionsheet(**Alert**) with 3 buttons with the button name of Prime numbers, Composite numbers & Integer numbers respectively. Display Prime numbers upto 30 on the default alert when the user taps on the Prime button, follow the same for remaining two buttons.
+
+
+## Screenshots
+<img src="https://github.com/Sumit4482/Assignment_3/assets/61246873/e554f00e-597c-4230-b74a-5e02c0279489" alt="Alt Text" width="200" height="400">
